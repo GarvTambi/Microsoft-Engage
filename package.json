@@ -1,0 +1,50 @@
+{
+  "name": "GarvTambi",
+  "version": "1.0.0",
+  "description": "Microsoft Engage",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run build && cp .env dist/ && node dist/app.js",
+    "build": "tsc -p .",
+    "build:live": "nodemon --watch './**/*.ts' --exec \"ts-node\" ./app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "author": "Garv Tambi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/compression": "^1.7.1",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^16.7.2",
+    "@types/nodemailer": "^6.4.4",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "google-auth-library": "^7.6.2",
+    "googleapis": "^84.0.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.0",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.3"
+  }
+}
