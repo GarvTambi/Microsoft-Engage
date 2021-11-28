@@ -14,7 +14,7 @@ export const Copyright = () => (
     {"Copyright © "}
     <Link
       color="inherit"
-      href="https://github.com/"
+      href="https://github.com/GarvTambi/Microsoft-Engage"
       underline="always">
       Garv Tambi
     </Link>{" "}
