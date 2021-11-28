@@ -1,6 +1,7 @@
-# Microsoft-Engage
+# Microsoft-Engage'21 Garv Tambi
 
-# EduSmart Kaksha
+# Microsoft Kaksha
+A digital platform that gives students and teachers an array of digital academic and social tools to stay engaged with their studies, peers digitally.
 
 # Idea
 This web application features a online classroom in which teachers can take online classes including posting
