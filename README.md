@@ -34,7 +34,7 @@ assignments and taking MCQ tests, creating poll and meet for separate courses. T
 
 # Installation:
 
-- ` git clone `
+- ` git clone https://github.com/GarvTambi/Microsoft-Engage.git`
 - Run `yarn` in both the home directory and the frontend directory in the repo to install dependencies.
 - Add a `.env` file with the following paramaters
 
