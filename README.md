@@ -1,4 +1,4 @@
-# Microsoft-Engage'21 Garv Tambi
+# Microsoft Engage'21 Garv Tambi
 
 # Microsoft Kaksha
 A digital platform that gives students and teachers an array of digital academic and social tools to stay engaged with their studies, peers digitally.
